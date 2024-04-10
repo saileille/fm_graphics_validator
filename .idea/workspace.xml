@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="52c13283-a8cc-4415-800a-d9e5d45d9d43" name="Changes" comment="" />
+    <list default="true" id="52c13283-a8cc-4415-800a-d9e5d45d9d43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/flags.txt" beforeDir="false" afterPath="$PROJECT_DIR$/settings/flags.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/graphics_locations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/settings/graphics_locations.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/ignore_file_names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/settings/ignore_file_names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/image_file_extensions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/settings/image_file_extensions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/valid_to_paths.txt" beforeDir="false" afterPath="$PROJECT_DIR$/settings/valid_to_paths.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +21,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "saileille"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/saileille/fm_graphics_validator.git",
+    "accountId": "1aa7dc3d-7f6e-4ab6-975f-d0ece3925e68"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>

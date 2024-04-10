@@ -1,3 +1,7 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> Files with these extensions are treated as image files by the script.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 png
 jpg
 jpeg

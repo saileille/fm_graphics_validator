@@ -1,3 +1,8 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> These are destination paths that the config files of the game should recognise.
+> Testing or better knowledge is still required.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 graphics/pictures/club/{id}/background
 graphics/pictures/club/{id}/icon
 graphics/pictures/club/{id}/logo/background/left

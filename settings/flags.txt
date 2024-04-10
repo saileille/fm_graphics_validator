@@ -1,4 +1,20 @@
-> Config file changes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> This file contains customisation options for tailoring the script more to your liking.
+
+> Usage:
+> <path name>
+> <flag(s)>
+
+> Flags apply to every file in the path's directory and sub-directories. For example, writing:
+
+> C:\Users\UserName\Documents\Sports Interactive\Football Manager 2024
+> IGNORE_MISSING_IMAGES
+
+> would silence reports about missing images everywhere inside the FM graphics folder.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+> CONFIG FILE CHANGES
 >>>>>>>>>>>>>>>>>>>>>>>>>>
 
 > By default, the script does not convert the config files from UTF-8-BOM to UTF-8, but instead gives an error. This
@@ -19,7 +35,7 @@
 > the config files more readable and save them. Note that this also deletes any comments that the config files may have.
 > REFORMAT_CONFIG_FILES
 
-> Ignoring reports
+> IGNORING REPORTS
 >>>>>>>>>>>>>>>>>>>>>>>>>>
 
 > By default, the script reports all records that do not have a corresponding image file. This flag ignores those
@@ -42,46 +58,25 @@
 > the destination path's ID. This flag ignores those reports.
 > IGNORE_NON-MATCHING_IDS
 
-E:\
-CONVERT_UTF-8-BOM
-DELETE_DUPLICATE_RECORDS
-DELETE_RECORDS_WITH_MISSING_IMAGE
-> IGNORE_MISSING_IMAGES
-REFORMAT_CONFIG_FILES
+> EXAMPLES
+>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-E:\Tiedostot\football manager\Football Manager 2024\graphics\faces\6 - _UltraRealistic NewGan Face CutOuts by RnR & FM.Z_
-IGNORE_MISSING_RECORDS
+> C:\
+> CONVERT_UTF-8-BOM
+> DELETE_DUPLICATE_RECORDS
+> DELETE_RECORDS_WITH_MISSING_IMAGE
+> REFORMAT_CONFIG_FILES
 
-E:\Tiedostot\football manager\Football Manager 2024\graphics\faces\-Ultrarealistic NewGAN Staff faces by RnR &FM.Z- 512px
-IGNORE_MISSING_RECORDS
+> C:\Users\UserName\Documents\Sports Interactive\Football Manager 2024\graphics\faces\6 - _UltraRealistic NewGan Face CutOuts by RnR & FM.Z_
+> IGNORE_MISSING_RECORDS
 
-E:\Tiedostot\football manager\Football Manager 2024\graphics\3d kits\04_2021\other 3d kits
-IGNORE_NON-MATCHING_IDS
+> C:\Users\UserName\Documents\Sports Interactive\Football Manager 2024\graphics\kits\sortitoutsi Standard Kits Megapack 2024.04\editor data
+> IGNORE_NON-IMAGE_FILES
 
-E:\Tiedostot\football manager\Football Manager 2024\graphics\3d kits\01_2024\_editor data
-IGNORE_NON-IMAGE_FILES
+> C:\Users\UserName\Documents\Sports Interactive\Football Manager 2024\graphics\backgrounds\sortitoutsi Stadium Backgrounds 2024.04\stadium_backgrounds
+> IGNORE_MULTI_USE_IMAGES
+> IGNORE_NON-MATCHING_IDS
 
-E:\Tiedostot\football manager\Football Manager 2024\graphics\3d kits\02_2023\_editor_data
-IGNORE_NON-IMAGE_FILES
-
-E:\Tiedostot\football manager\Football Manager 2024\graphics\3d kits\03_2022\_editor data
-IGNORE_NON-IMAGE_FILES
-
-E:\Tiedostot\football manager\Football Manager 2024\graphics\3d kits\04_2021\_editor_data
-IGNORE_NON-IMAGE_FILES
-
-E:\Tiedostot\football manager\Football Manager 2024\graphics\3d kits\05_2020\_editor_data
-IGNORE_NON-IMAGE_FILES
-
-E:\Tiedostot\football manager\Football Manager 2024\graphics\kits\sortitoutsi Standard Kits Megapack 2023.05\editor data
-IGNORE_NON-IMAGE_FILES
-
-E:\Tiedostot\football manager\Football Manager 2024\graphics\kits\sortitoutsi Standard Kits Megapack 2024.04\editor data
-IGNORE_NON-IMAGE_FILES
-
-E:\Tiedostot\football manager\Football Manager 2024\graphics\kits\sortitoutsi.net Standard Kits Megapack for FM2022v3\editor data
-IGNORE_NON-IMAGE_FILES
-
-E:\Tiedostot\football manager\Football Manager 2024\graphics\backgrounds\sortitoutsi Stadium Backgrounds 2024.04\stadium_backgrounds
-IGNORE_MULTI_USE_IMAGES
-IGNORE_NON-MATCHING_IDS
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+> WRITE YOUR FLAGS BELOW
+>>>>>>>>>>>>>>>>>>>>>>>>>>

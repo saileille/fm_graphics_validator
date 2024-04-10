@@ -1,0 +1,16 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> In this file, you can tell which graphics locations you want validated.
+> The script goes through the directory given, and all of its sub-directories.
+> You can give as many graphics locations as you want, but it is recommended to avoid validating too many files at once,
+> as doing so can take a very long time.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+> EXAMPLES
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+> C:\Users\UserName\Documents\Sports Interactive\Football Manager 2024\graphics\logos
+> C:\Users\UserName\Documents\Sports Interactive\Football Manager 2024\graphics\backgrounds\sortitoutsi Fan Backgrounds 2024.04
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+WRITE YOUR LOCATIONS BELOW
+>>>>>>>>>>>>>>>>>>>>>>>>>>

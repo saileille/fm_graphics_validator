@@ -1,0 +1,73 @@
+graphics/pictures/club/{id}/background
+graphics/pictures/club/{id}/icon
+graphics/pictures/club/{id}/logo/background/left
+graphics/pictures/club/{id}/logo/background/right
+graphics/pictures/club/{id}/logo
+graphics/pictures/comp/{id}/background
+graphics/pictures/comp/{id}/icon
+graphics/pictures/comp/{id}/logo
+graphics/pictures/comp/{id}/logo/background/left
+graphics/pictures/comp/{id}/logo/background/right
+graphics/pictures/comp/{id}/trophy
+graphics/pictures/continent/{id}/background
+graphics/pictures/continent/{id}/huge > Not sure if this is real.
+graphics/pictures/continent/{id}/icon
+graphics/pictures/continent/{id}/logo
+graphics/pictures/continent/{id}/logo/huge > Not sure if this is real.
+graphics/pictures/continent/{id}/logo/background/left
+graphics/pictures/continent/{id}/logo/background/right
+graphics/pictures/goalkeeper/{id}/kit_textures/away
+graphics/pictures/goalkeeper/{id}/kit_textures/home
+graphics/pictures/goalkeeper/{id}/kit_textures/third
+graphics/pictures/media_source/{id}/logo
+graphics/pictures/nation/{id}/background
+graphics/pictures/nation/{id}/flag
+graphics/pictures/nation/{id}/icon
+graphics/pictures/nation/{id}/logo
+graphics/pictures/nation/{id}/logo/background/left
+graphics/pictures/nation/{id}/logo/background/right
+graphics/pictures/person/{id}/background
+graphics/pictures/person/{id}/icon
+graphics/pictures/person/{id}/portrait
+graphics/pictures/sleeves/3d/{id}/champion
+graphics/pictures/sleeves/3d/{id}/default
+graphics/pictures/stadium/{id}/background
+graphics/pictures/stadium/{id}/stadium
+
+> Graphics related to national teams, I guess?
+graphics/pictures/team/{id}/background
+graphics/pictures/team/{id}/kit_textures/away
+graphics/pictures/team/{id}/kit_textures/home
+graphics/pictures/team/{id}/kit_textures/third
+graphics/pictures/team/{id}/kits/away
+graphics/pictures/team/{id}/kits/home
+graphics/pictures/team/{id}/kits/third
+graphics/pictures/team/{id}/logo
+
+> Default (placeholder) graphics
+graphics/pictures/club/none/icon/style/{id}
+graphics/pictures/club/none/logo
+graphics/pictures/club/none/logo/background/left
+graphics/pictures/club/none/logo/background/left/kitstyle/{id}
+graphics/pictures/club/none/logo/background/right
+graphics/pictures/club/none/logo/background/right/kitstyle/{id}
+graphics/pictures/club/none/logo/kitstyle/{id}
+graphics/pictures/club/none/logo/style/{id}
+graphics/pictures/club/none/icon
+graphics/pictures/club/none/icon/kitstyle/{id}
+graphics/pictures/comp/friendly cup/icon
+graphics/pictures/comp/friendly cup/logo
+graphics/pictures/comp/friendly cup/logo/background/left
+graphics/pictures/comp/friendly cup/logo/background/right
+graphics/pictures/comp/friendly cup/trophy
+graphics/pictures/comp/none/icon/cup
+graphics/pictures/comp/none/icon/league
+graphics/pictures/comp/none/logo/cup
+graphics/pictures/comp/none/logo/league
+graphics/pictures/comp/trophy/{id}
+graphics/pictures/nation/none/icon/style/{id}
+graphics/pictures/nation/none/logo/background/left
+graphics/pictures/nation/none/logo/background/left/kitstyle/{id}
+graphics/pictures/nation/none/logo/background/right
+graphics/pictures/nation/none/logo/background/right/kitstyle/{id}
+graphics/pictures/nation/none/logo/style/{id}

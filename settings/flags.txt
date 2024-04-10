@@ -1,0 +1,82 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> This file contains customisation options for tailoring the script more to your liking.
+
+> Usage:
+> <path name>
+> <flag(s)>
+
+> Flags apply to every file in the path's directory and sub-directories. For example, writing:
+
+> C:\Users\UserName\Documents\Sports Interactive\Football Manager 2024
+> IGNORE_MISSING_IMAGES
+
+> would silence reports about missing images everywhere inside the FM graphics folder.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+> CONFIG FILE CHANGES
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+> By default, the script does not convert the config files from UTF-8-BOM to UTF-8, but instead gives an error. This
+> flag instructs the script to do this conversion and save the config files.
+> CONVERT_UTF-8-BOM
+
+> By default, the script does not delete duplicate records in the config files. Duplicate record means a record sharing
+> the same source and destination with one or more records in the config file. This flag instructs the script to only
+> leave unique records in the config files, and save the changes.
+> DELETE_DUPLICATE_RECORDS
+
+> By default, the script does not delete records where the image is missing. This flag instructs the script to delete
+> those records, and save the config file.
+> NOTE: If both this and IGNORE_MISSING_IMAGES have been activated, this flag overrides the other.
+> DELETE_RECORDS_WITH_MISSING_IMAGE
+
+> By default, the script does not make any visual changes to the config files. This flag instructs the script to make
+> the config files more readable and save them. Note that this also deletes any comments that the config files may have.
+> REFORMAT_CONFIG_FILES
+
+> IGNORING REPORTS
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+> By default, the script reports all records that do not have a corresponding image file. This flag ignores those
+> reports.
+> NOTE: If both this and DELETE_RECORDS_WITH_MISSING_IMAGE have been activated, this flag has no effect.
+> IGNORE_MISSING_IMAGES
+
+> By default, the script reports all images that do not have a config record tied to them. This flag ignores those
+> reports.
+> IGNORE_MISSING_RECORDS
+
+> By default, the script reports all cases of one image being used in several records. This flag ignores those reports.
+> IGNORE_MULTI_USE_IMAGES
+
+> By default, the script reports all files that are not images. The distinction between an image and non-image is done
+> based on the list of file extensions given in image_file_extensions.txt file. This flag ignores those reports.
+> IGNORE_NON-IMAGE_FILES
+
+> By default, the script reports all records where the image file name is a number, but that number is different from
+> the destination path's ID. This flag ignores those reports.
+> IGNORE_NON-MATCHING_IDS
+
+> EXAMPLES
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+> C:\
+> CONVERT_UTF-8-BOM
+> DELETE_DUPLICATE_RECORDS
+> DELETE_RECORDS_WITH_MISSING_IMAGE
+> REFORMAT_CONFIG_FILES
+
+> C:\Users\UserName\Documents\Sports Interactive\Football Manager 2024\graphics\faces\6 - _UltraRealistic NewGan Face CutOuts by RnR & FM.Z_
+> IGNORE_MISSING_RECORDS
+
+> C:\Users\UserName\Documents\Sports Interactive\Football Manager 2024\graphics\kits\sortitoutsi Standard Kits Megapack 2023.05\editor data
+> IGNORE_NON-IMAGE_FILES
+
+> C:\Users\UserName\Documents\Sports Interactive\Football Manager 2024\graphics\backgrounds\sortitoutsi Stadium Backgrounds 2024.04\stadium_backgrounds
+> IGNORE_MULTI_USE_IMAGES
+> IGNORE_NON-MATCHING_IDS
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+WRITE YOUR FLAGS BELOW
+>>>>>>>>>>>>>>>>>>>>>>>>>>
